@@ -1,8 +1,8 @@
 ### Source
 - https://github.com/chenhw2/Dockers/tree/SS-KCP-SERVER
   
-### Thanks to
-- [https://github.com/shadowsocks/go-shadowsocks2][ss2ver]
+### Thanks
+- https://github.com/shadowsocks/go-shadowsocks2
 - https://github.com/xtaci/kcptun
   
 ### Usage
@@ -26,5 +26,3 @@ ENV KCP=cp://fast2:aes:
 ENV KCP_EXTRA_ARGS=''
 
 ```
-
- [ss2ver]: https://github.com/shadowsocks/go-shadowsocks2/commit/9baef5e148d885b8040f7df13596f2c87d526a07
