@@ -29,7 +29,7 @@ ${DOMAIN} {
     except /404.html
   }
   redir {
-  if {path} not_match (/|/404.html)$
+  if {path} not_match (/$|/css|/post|/404.html$)
     / /404.html
   }
 }
